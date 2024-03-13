@@ -1,0 +1,16 @@
+{
+    "name": "acf/example_rename",
+    "title": "Example block",
+    "description": "A custom block by OTG",
+    "style": [ "file:./example_rename.css" ],
+    "category": "formatting",
+    "icon": "star-filled",
+    "keywords": ["example", "otg"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "example_rename.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}
